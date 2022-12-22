@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+;
+;
+let inter_type;
+inter_type = { std_name: "ALI", std_id: 897, tch_name: "Umar", tch_id: 76 };
+console.log(inter_type.tch_name);
+console.log(inter_type.tch_id);
+console.log(inter_type["std_name"]);
+console.log(inter_type["std_id"]);
